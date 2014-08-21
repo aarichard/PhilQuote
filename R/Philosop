@@ -1,0 +1,56 @@
+#' A Philosopher Function
+#'
+#' This function generates a quote attributed to the input philosopher
+#' @param philosopher(x) = quote by x
+#' @keywords philosopher quote
+#' @export
+#' @examples philosopher("Socrates"), philosopher("Hegel")
+#' philosopher()
+
+philosopher <- function(x, max.print=1) {
+  if(x == "Socrates") {
+    print("The unexamined life is not worth living")
+  }
+  else if(x == "Plato") {
+    print("Wise men speak because they have something to say; fools because they have to say something")
+  }
+  else if(x == "Aristotle") {
+    print("No great mind has ever existed without a touch of madness")
+  }
+  else if(x == "William of Ockham") {
+    print("Entities should not be multiplied unncessarily")
+  }
+  else if(x == "Hobbes") {
+    print("The life of man is solitary, poor, nasty, brutish, and short")
+  }
+  else if(x == "Descartes") {
+    print("I think therefore I am")
+  }  
+  else if(x == "Berkeley") {
+    print("To be is to be perceived")
+  } 
+  else if(x == "Leibniz") {
+    print("We live in the best of all possible worlds")
+  }  
+  else if(x == "Hegel") {
+    print("The owl of Minerva spreads its wings only with the falling of the dusk")
+  } 
+  else if(x == "Kierkegaard") {
+    print("Life can only be understood backwards; but it must be lived forwards")
+  }  
+  else if(x == "Nietzsche") {
+    print("God is dead")
+  }   
+  else if(x == "Camus") {
+    print("There is but one truly serious philosophical problem, and that is suicide")
+  }  
+  else if(x == "Heraclitus") {
+    print("One cannot step twice in the same river")
+  } else 
+  {
+    print("I don't know")                          
+  }                                                                                                                                                
+}
+
+
+
